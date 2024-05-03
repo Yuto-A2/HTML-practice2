@@ -1,0 +1,225 @@
+/*共通*/
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#header1 {
+    font-size: 2rem;
+}
+
+#header1 a {
+    text-decoration: none;
+    color: red;
+}
+
+.header2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+/*/共通*/
+
+/*header*/
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}/*タイトルとロゴの横並び*/
+
+#logo {
+    width: 45px;
+    height: 45px;
+    margin-top: 25px;
+    margin-right: 20px;
+}/*ロゴの大きさと位置*/
+
+.sns img {
+    width: 40px;
+    height: 40px;
+}/*snsアイコンのサイズ*/
+
+.sns li {
+    list-style-type: none;
+}/*snsアイコンの中点の削除*/
+
+.sns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 150px;
+}/*snsアイコンの位置*/
+
+.instagram {
+    margin-right: 10px;
+}/*instagramとtwitterの間に空白*/
+
+.MenuBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    background: red;
+    padding: 20px 70px 20px 70px;
+}/*ナビゲーションバーの横並びとバックグランドカラー*/
+
+#navigation li a{
+    text-decoration: none;
+    color: black;
+}
+
+#navigation li a:hover {
+    color: blue;
+}
+
+/*/header*/
+
+/*main*/
+main {
+    flex-basis: 0;
+    flex-grow: 2;
+    margin-left: 20px;
+    width: 800px;
+} 
+
+#catchCopy {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.h2title {
+    font-size: 1.5rem;
+    text-align: center;
+    color: red;
+}
+
+.redColor {
+    color: red;
+}
+
+.lineHeight {
+    margin-bottom: 50px;
+} /*行間を空ける*/
+
+/*お知らせ*/
+.homeNews {
+    display: flex;
+    justify-content: center;
+}
+
+.homeNewsList {
+    margin-top: 5px;
+    padding: 10px 10px 10px 0;
+    border-radius: 10px;
+    background: #fff;
+    border: solid 1px black;
+    width: 600px;
+    height: 250px;
+    padding-left: 50px;
+}
+
+.homeNewsList li {
+    justify-content: center;
+    width: 600px;
+    padding-bottom: 15px;
+}
+
+/*コンタクトフォーム*/ 
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}/*垂直方向に並べる*/
+
+.contactContainer label {
+    margin-bottom: 15px;
+}
+
+.contactContainer p {
+    font-size: 16px;
+}
+
+.nameBox {
+    border: 1px solid black;
+    width: 500px;
+    height: 30px;
+}/*姓名入力欄*/
+
+.mailBox {
+    width: 500px;
+    height: 30px;
+}/*メール入力欄*/
+
+.messageBox {
+    width: 500px;
+    height: 200px;
+}/*メッセージ入力欄*/
+
+.sendBtn {
+    border: solid 1px black;
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    background: green;
+    color: white;
+}/*ボタンの大きさ*/
+
+/*aside*/
+aside {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.aboutContainer{
+    text-align: center;
+    margin-left: 30px;
+    width: 400px;
+    border: 1px black solid;
+    background: #E4E4E4;
+    flex-basis: 0;
+    flex-grow: 1
+}
+
+aside img {
+    width: 200px;
+    height: 200px;
+}
+/*/aside*/
+
+/*footer*/
+footer {
+    width: 100%;
+}
+
+.copyRight {
+    text-align: center;
+    background: red;
+}
+
+footer li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer li a:hover {
+    color: blue;
+}
+
+footer ul {
+    display: inline;
+    margin-bottom: 5px;
+}
+
+
+
